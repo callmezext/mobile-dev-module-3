@@ -17,12 +17,14 @@ Aplikasi katalog dan peminjaman buku perpustakaan kampus berbasis **Flutter** da
 
 ## 📂 Struktur Direktori
 
+```text
 lib/
 ├── pages/
 │   ├── home_page.dart       # Beranda & daftar buku
 │   ├── detail_page.dart     # Rincian buku & tombol aksi
 │   └── success_page.dart    # Status peminjaman berhasil
 └── main.dart                # Entry point & tema aplikasi
+```
 
 ---
 
@@ -37,10 +39,16 @@ lib/
 ## 🚀 Panduan Menjalankan
 
 1. Pasang dependensi:
-   flutter pub get
+```bash
+flutter pub get
+```
 
 2. Jalankan aplikasi:
-   - Melalui browser (Chrome):
-     flutter run -d chrome
-   - Melalui Emulator / Perangkat:
-     flutter run
+- Melalui browser (Chrome):
+```bash
+flutter run -d chrome
+```
+- Melalui Emulator / Perangkat:
+```bash
+flutter run
+```
